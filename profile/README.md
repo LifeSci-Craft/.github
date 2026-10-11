@@ -12,6 +12,7 @@ LifeSci-Craft 服务器用得到的 MCDReforged 插件、数据包与网页，�
 | --- | --- |
 | [MCDR-ServerLogFilter](https://github.com/LifeSci-Craft/MCDR-ServerLogFilter) | 用可配置的正则规则，把服务端控制台里的刷屏日志从 MCDR 控制台隐去；服务端自身的日志文件不受影响。 |
 | [MCDR-ModUpdateChecker](https://github.com/LifeSci-Craft/MCDR-ModUpdateChecker) | 把服务端 `mods` 目录里的每个 jar 与 Modrinth 上已发布的版本逐一比对，告诉管理员哪些 Mod 有新版本。 |
+| [MCDR-IdleGuard](https://github.com/LifeSci-Craft/MCDR-IdleGuard) | 群组服的子服没人玩了就自动休眠、玩家连接时自动唤醒；休眠期间由假服务端顶替端口，服务器列表与玩家连接都能得到回应。 |
 
 ## 数据包
 
@@ -47,6 +48,7 @@ MCDReforged plugins, datapacks and web pages built for the **LifeSci-Craft** Min
 | --- | --- |
 | [MCDR-ServerLogFilter](https://github.com/LifeSci-Craft/MCDR-ServerLogFilter) | Hides noisy server-console lines from the MCDR console using configurable regex rules. The server's own log file is left untouched. |
 | [MCDR-ModUpdateChecker](https://github.com/LifeSci-Craft/MCDR-ModUpdateChecker) | Compares every jar in the server's `mods` folder against Modrinth and reports which mods have a newer build. |
+| [MCDR-IdleGuard](https://github.com/LifeSci-Craft/MCDR-IdleGuard) | Sleeps the backend servers of a proxy network when nobody is playing and wakes them when a player connects; a fake server holds the port while they are asleep. |
 
 ### Datapacks
 
