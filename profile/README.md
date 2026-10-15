@@ -1,6 +1,6 @@
 # LifeSci-Craft 的奇妙工具箱
 
-LifeSci-Craft 服务器用得到的 MCDReforged 插件、数据包与网页，都收在这里。
+LifeSci-Craft 服务器用得到的 MCDReforged 插件、模组、数据包与网页，都收在这里。
 
 **语言 / Language:** **简体中文**（本页） · [English](#english)
 
@@ -13,6 +13,12 @@ LifeSci-Craft 服务器用得到的 MCDReforged 插件、数据包与网页，�
 | [MCDR-ServerLogFilter](https://github.com/LifeSci-Craft/MCDR-ServerLogFilter) | 用可配置的正则规则，把服务端控制台里的刷屏日志从 MCDR 控制台隐去；服务端自身的日志文件不受影响。 |
 | [MCDR-ModUpdateChecker](https://github.com/LifeSci-Craft/MCDR-ModUpdateChecker) | 把服务端 `mods` 目录里的每个 jar 与 Modrinth 上已发布的版本逐一比对，告诉管理员哪些 Mod 有新版本。 |
 | [MCDR-IdleGuard](https://github.com/LifeSci-Craft/MCDR-IdleGuard) | 群组服的子服没人玩了就自动休眠、玩家连接时自动唤醒；休眠期间由假服务端顶替端口，服务器列表与玩家连接都能得到回应。 |
+
+## 模组
+
+| 仓库 | 说明 |
+| --- | --- |
+| [Carpet-LSC-Addition](https://github.com/LifeSci-Craft/Carpet-LSC-Addition) | Fabric Carpet 拓展。不死图腾扳手（主手转动方块、副手反转放置朝向）、背包图腾保命、Carpet Extra 的精准放置协议移植、树叶快速腐烂、村民被绿宝石吸引、白天睡觉、`/ping` 查看延迟；7 条规则默认全关。服务端模组，玩家无需安装，支持 Minecraft 26.1 – 26.3。 |
 
 ## 数据包
 
@@ -29,7 +35,7 @@ LifeSci-Craft 服务器用得到的 MCDReforged 插件、数据包与网页，�
 
 ---
 
-按主题筛选：[MCDR 插件](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Amcdr-plugin) · [数据包](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Aminecraft-datapack) · [网页](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Agithub-pages)
+按主题筛选：[MCDR 插件](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Amcdr-plugin) · [模组](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Aminecraft-mod) · [数据包](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Aminecraft-datapack) · [网页](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Agithub-pages)
 
 ---
 
@@ -40,7 +46,7 @@ LifeSci-Craft 服务器用得到的 MCDReforged 插件、数据包与网页，�
 
 **Language / 语言:** English (this page) · [简体中文](#lifesci-craft-的奇妙工具箱)
 
-MCDReforged plugins, datapacks and web pages built for the **LifeSci-Craft** Minecraft server.
+MCDReforged plugins, mods, datapacks and web pages built for the **LifeSci-Craft** Minecraft server.
 
 ### MCDReforged plugins
 
@@ -49,6 +55,12 @@ MCDReforged plugins, datapacks and web pages built for the **LifeSci-Craft** Min
 | [MCDR-ServerLogFilter](https://github.com/LifeSci-Craft/MCDR-ServerLogFilter) | Hides noisy server-console lines from the MCDR console using configurable regex rules. The server's own log file is left untouched. |
 | [MCDR-ModUpdateChecker](https://github.com/LifeSci-Craft/MCDR-ModUpdateChecker) | Compares every jar in the server's `mods` folder against Modrinth and reports which mods have a newer build. |
 | [MCDR-IdleGuard](https://github.com/LifeSci-Craft/MCDR-IdleGuard) | Sleeps the backend servers of a proxy network when nobody is playing and wakes them when a player connects; a fake server holds the port while they are asleep. |
+
+### Mods
+
+| Repository | Description |
+| --- | --- |
+| [Carpet-LSC-Addition](https://github.com/LifeSci-Craft/Carpet-LSC-Addition) | A Fabric Carpet extension. Totem wrench (rotate the aimed block in the main hand, invert placement facing in the off hand), inventory totem, the Carpet Extra accurate block placement protocol, fast leaf decay, emerald-villager temptation, daytime sleeping and `/ping`; all 7 rules default to off. Server-side only, no client install needed, Minecraft 26.1 – 26.3. |
 
 ### Datapacks
 
@@ -65,6 +77,6 @@ MCDReforged plugins, datapacks and web pages built for the **LifeSci-Craft** Min
 
 ---
 
-Browse by topic: [MCDReforged plugins](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Amcdr-plugin) · [Datapacks](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Aminecraft-datapack) · [Web](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Agithub-pages)
+Browse by topic: [MCDReforged plugins](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Amcdr-plugin) · [Mods](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Aminecraft-mod) · [Datapacks](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Aminecraft-datapack) · [Web](https://github.com/orgs/LifeSci-Craft/repositories?q=topic%3Agithub-pages)
 
 </details>
